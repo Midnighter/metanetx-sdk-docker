@@ -7,8 +7,8 @@
 aioftp==0.13.0            # via metanetx-sdk
 appdirs==1.4.3            # via quilt3
 aws-requests-auth==0.4.2  # via quilt3
-boto3==1.9.232            # via quilt3
-botocore==1.12.232        # via boto3, s3transfer
+boto3==1.9.233            # via quilt3
+botocore==1.12.233        # via boto3, s3transfer
 certifi==2019.9.11        # via requests
 cffi==1.12.3              # via xattr
 chardet==3.0.4            # via requests
@@ -21,7 +21,7 @@ humanize==0.5.1           # via quilt3
 idna==2.8                 # via requests
 jmespath==0.9.4           # via boto3, botocore
 jsonlines==1.2.0          # via quilt3
-metanetx-sdk==0.2.0
+metanetx-sdk==0.2.1
 numpy==1.17.2             # via pandas, pyarrow, quilt3
 packaging==19.2           # via quilt3
 pandas==0.25.1            # via metanetx-sdk, quilt3
