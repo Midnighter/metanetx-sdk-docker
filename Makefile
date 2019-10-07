@@ -6,7 +6,7 @@
 
 # Get the image tag from the environment, argument, or default value.
 TAG ?= 3.7-slim
-VERSION ?= 0.2.2
+VERSION ?= 0.3.1
 
 ################################################################################
 # Commands                                                                     #
