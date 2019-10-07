@@ -25,12 +25,10 @@ COPY requirements/* ./requirements/
 RUN set -eux \
     && apt-get update \
     && apt-get install --yes \
-        build-essential \
         ca-certificates \
         openssl \
     && pip install --upgrade pip-tools \
     && pip-sync requirements/requirements.txt \
-    && apt-get purge --yes build-essential \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
     && rm -rf /root/.cache/pip
