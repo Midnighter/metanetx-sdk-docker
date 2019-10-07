@@ -5,42 +5,18 @@
 #    pip-compile --allow-unsafe requirements/requirements.in
 #
 aioftp==0.13.0            # via metanetx-sdk
-appdirs==1.4.3            # via quilt3
-aws-requests-auth==0.4.2  # via quilt3
-boto3==1.9.233            # via quilt3
-botocore==1.12.233        # via boto3, s3transfer
-certifi==2019.9.11        # via requests
-cffi==1.12.3              # via xattr
-chardet==3.0.4            # via requests
 click-log==0.3.2          # via metanetx-sdk
 click==7.0                # via click-log, metanetx-sdk
 depinfo==1.5.1            # via metanetx-sdk
-docutils==0.15.2          # via botocore
-elasticsearch==6.3.1      # via quilt3
-humanize==0.5.1           # via quilt3
-idna==2.8                 # via requests
-jmespath==0.9.4           # via boto3, botocore
-jsonlines==1.2.0          # via quilt3
-metanetx-sdk==0.2.1
-numpy==1.17.2             # via pandas, pyarrow, quilt3
-packaging==19.2           # via quilt3
-pandas==0.25.1            # via metanetx-sdk, quilt3
+metanetx-sdk==0.2.2
+numpy==1.17.2             # via pandas
+pandas==0.25.1            # via metanetx-sdk
 pipdeptree==0.13.2        # via depinfo
-pyarrow==0.13.0           # via quilt3
-pycparser==2.19           # via cffi
 pydantic==0.32.2          # via metanetx-sdk
-pyparsing==2.4.2          # via packaging
-python-dateutil==2.8.0    # via botocore, metanetx-sdk, pandas
-pytz==2019.2              # via metanetx-sdk, pandas
-quilt3==3.0.8
-requests==2.22.0          # via aws-requests-auth, quilt3
-ruamel.yaml==0.15.70      # via quilt3
-s3transfer==0.2.1         # via boto3
-six==1.12.0               # via jsonlines, packaging, pyarrow, python-dateutil
+python-dateutil==2.8.0    # via metanetx-sdk, pandas
+pytz==2019.3              # via metanetx-sdk, pandas
+six==1.12.0               # via python-dateutil
 toml==0.10.0              # via metanetx-sdk
-tqdm==4.36.1              # via quilt3
-urllib3==1.24.3           # via botocore, elasticsearch, quilt3, requests
-xattr==0.9.6              # via quilt3
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==19.2.3               # via pipdeptree
