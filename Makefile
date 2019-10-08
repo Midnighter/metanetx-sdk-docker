@@ -6,7 +6,6 @@
 
 # Get the image tag from the environment, argument, or default value.
 TAG ?= 3.7-slim
-VERSION ?= 0.3.1
 
 ################################################################################
 # Commands                                                                     #
@@ -15,8 +14,8 @@ VERSION ?= 0.3.1
 ## Build local docker images.
 build:
 	docker pull python:$(TAG)
-	docker build --tag midnighter/metanetx-sdk:$(VERSION) --build-arg TAG=$(TAG) .
-	docker tag midnighter/metanetx-sdk:$(VERSION) midnighter/metanetx-sdk:latest
+	docker build --tag midnighter/metanetx-sdk:$(version) --build-arg TAG=$(TAG) .
+	docker tag midnighter/metanetx-sdk:$(version) midnighter/metanetx-sdk:latest
 
 ################################################################################
 # Self Documenting Commands                                                    #
